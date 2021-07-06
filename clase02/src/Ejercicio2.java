@@ -5,16 +5,16 @@ public class Ejercicio2 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Ingrese la estacion del año");
-        String estacion=sc.nextLine();
+        String estacion=sc.next();
 
         System.out.println("Ingrese el numero entero");
         int numero = sc.nextInt();
 
-        System.out.println("Ingrese el adejtivo");
-        String adjetivo=sc.nextLine();
-         sc.close();
-
-        String oracion = "En un dia "+ adjetivo+"de "+ estacion + ", yo bebo un minimo de "+ numero +" tazas de cafe";
+        System.out.println("Ingrese el adjetivo");
+        String adjetivo = sc.next();
+         
+        sc.close();
+        String oracion = "En un dia "+ adjetivo +" de "+ estacion + ", yo bebo un minimo de "+ numero +" tazas de cafe";
 
         System.out.println();
         System.out.println(oracion);

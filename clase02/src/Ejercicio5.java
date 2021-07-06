@@ -10,13 +10,14 @@ public static void main(String[] args) {
 
     switch(nota){
         case "E":
-            mensaje = "Exelente Trabajo!, la mejor nota!";
+            mensaje = "!Exelente Trabajo!, la mejor nota!";
             break;
         case "S" :
             mensaje = "Sobresaliente!, buena nota!";
             break;
         case "R":
             mensaje = "Regular, puedes hacerlo mejor!";
+            
             break;   
         case "I":
             mensaje = "Insuficiente, vuelve a intentarlo";
